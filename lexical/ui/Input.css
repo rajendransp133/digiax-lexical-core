@@ -1,0 +1,60 @@
+.Input__wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.Input__label {
+  display: flex;
+  flex: 1;
+  color: #666;
+}
+.Input__input {
+  display: flex;
+  flex: 2;
+  border: 1px solid #999;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  min-width: 0;
+}
+
+.FileInput__container {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  padding: 0;
+}
+
+.FileInput__hidden {
+  display: none;
+}
+
+.FileInput__button {
+  background-color: #f0f0f0;
+  border: none;
+  padding: 7px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-right: 1px solid #999;
+  transition: background-color 0.2s;
+  flex-shrink: 0;
+}
+
+.FileInput__button:hover {
+  background-color: #e0e0e0;
+}
+
+.FileInput__filename {
+  padding: 7px 10px;
+  font-size: 16px;
+  color: #666;
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  min-width: 0;
+}
